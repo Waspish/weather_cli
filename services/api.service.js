@@ -20,7 +20,6 @@ const getWeather = async (city) => {
 			}
 		}
 	);
-	console.log(data);
 	return data;
 	// const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`;
 	// const url = new URL(`https://api.openweathermap.org/data/2.5/weather`);
