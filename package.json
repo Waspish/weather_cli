@@ -1,6 +1,6 @@
 {
-	"name": "weather-cli",
-	"version": "1.0.0",
+	"name": "weather-cli-waspish",
+	"version": "1.0.1",
 	"description": "CLI for getting weather",
 	"main": "weather.js",
 	"bin": {
@@ -8,8 +8,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"start": "node index.js",
-		"build": "gulp index.js",
+		"start": "node weather.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
@@ -18,13 +17,13 @@
 	],
 	"author": "Andrei Astapenka",
 	"license": "ISC",
-	"homepage": "https://purpleschool.ru",
+	"homepage": "https://test.teamplay.studio/",
 	"repository": {
 		"type": "git",
-		"url": "https://purpleschool.ru"
+		"url": "https://test.teamplay.studio/"
 	},
 	"bugs": {
-		"url": "https://purpleschool.ru",
+		"url": "https://test.teamplay.studio/",
 		"email": "ostapenko.andreik@gmail.com"
 	},
 	"dependencies": {

@@ -1,7 +1,6 @@
 import { homedir } from 'os';
 import { join } from 'path';
 import { promises } from 'fs';
-import { stringify } from 'querystring';
 
 const filePath = join(homedir(), 'weather-data.json');
 
